@@ -1,0 +1,5 @@
+# personalised greeting
+a=input("enter user first name :")
+b=input("enter user second name :")
+c=a+b
+print("hello"\t +c\t+"welcome to python program")
