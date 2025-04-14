@@ -1,9 +1,10 @@
 
 #factorial of a given number
+n=int(input("enter a number :")
 def factorial(n):
     if n<2:
         return 1
     else:
         return n*(factorial(n-1))
-a=factorial(5)
-print(a)
+a=factorial(n)
+print("factorial of 5 is: ",a)
