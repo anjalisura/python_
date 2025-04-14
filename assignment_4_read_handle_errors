@@ -1,1 +1,13 @@
 
+#file is not found
+folder=open('sample.txt','r')
+print(folder)
+
+
+
+
+#file found
+folder=open('sample.txt','r')
+f=folder.read()
+print(f)
+
