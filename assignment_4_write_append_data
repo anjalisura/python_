@@ -1,1 +1,6 @@
+#write append data
+folder=open('output.txt','a')
+append=folder.write("i am a workholic")
+print(append)
+folder.close()
 
