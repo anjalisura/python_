@@ -1,6 +1,19 @@
-#write append data
-folder=open('output.txt','a')
-append=folder.write("i am a workholic")
-print(append)
+first=input("enter text to write a file :")
+folder=open('output.txt','w')
+write=folder.write("hello , python "+" \n")
+print("data successfully written to the output.txt")
+
+
+second=str(input("enter addition text to append :"))
+s=folder.write("learning file handling in python")
+print("data successfully appended")
+
+print("final content of output.txt")
+
+folder=open("output.txt",'r')
+t=folder.read()
+print(t)
+
 folder.close()
+
 
